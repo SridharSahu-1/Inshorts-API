@@ -19,5 +19,5 @@ def news():
     elif request.method == 'GET':
         return jsonify(getNews(request.args.get('category')))
 
-app.run(debug=True)
+# app.run(debug=True)
         
